@@ -1,5 +1,5 @@
 // Web Microservice for calculating multiple operations
-use actix_web::{get, web, App, HttpServer, HttpResponse};
+use actix_web::{App, HttpResponse, HttpServer, get, web};
 
 #[get("/add/{a}/{b}")]
 async fn add(a: web::Path<(f64, f64)>) -> HttpResponse {

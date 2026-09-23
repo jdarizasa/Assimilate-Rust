@@ -1,4 +1,4 @@
-// build calculator functions 
+// build calculator functions
 pub fn add(a: f64, b: f64) -> f64 {
     a + b
 }
