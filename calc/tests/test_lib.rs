@@ -1,8 +1,8 @@
 // Test functions for the calculator library src/lib.rs
 use calc::add;
-use calc::subtract;
-use calc::multiply;
 use calc::divide;
+use calc::multiply;
+use calc::subtract;
 
 #[cfg(test)]
 mod tests {
